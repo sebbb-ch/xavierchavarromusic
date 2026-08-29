@@ -1,0 +1,527 @@
+@charset "UTF-8";
+
+body {
+background-color: #000000;
+padding: 0;
+margin: 0;
+}
+
+a:focus {
+outline: none
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+}
+.albums {
+	background-image:url(media/hor-base.jpg);
+	background-repeat:repeat-x;
+	width: 1021px;
+	height: 389px;
+	position: absolute;
+	top: 212px;
+	left: 100px;
+}
+.title_album_notes {
+	height: 60px;
+	width: 270px;
+	position: absolute;
+	top: 615px;
+	left: 131px;
+}
+.tx_album_notes {
+	width: 270px;
+	position: absolute;
+	top: 680px;
+	left: 130px;
+}
+.tx_album_notes_riera {
+	width: 270px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	line-height: 20px;
+	letter-spacing: 0.1725px;
+	text-align:justify;
+	color: #FFF;
+}
+.tx_album_songs_riera {
+	width: 635px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 20px;
+	letter-spacing: 0.1725px;
+	text-align: justify;
+	color: #FFF;
+	position: absolute;
+	top: 630px;
+	left: 476px;
+}
+.tx_album_songs_chart_riera {
+	width: 270px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	line-height: 20px;
+	letter-spacing: 0.1725px;
+	text-align:justify;
+	color: #FFF;
+}
+
+
+
+
+
+
+
+
+.title_album_notes_transcendent {
+	height: 60px;
+	width: 270px;
+	position: absolute;
+	top: 1245px;
+	left: 130px;
+}
+.tx_album_notes_transcendent {
+	width: 270px;
+	position: absolute;
+	top: 1310px;
+	left: 129px;
+}
+.tx_album_notes_transcendent {
+	width: 270px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	line-height: 20px;
+	letter-spacing: 0.1725px;
+	text-align:justify;
+	color: #FFF;
+}
+.tx_album_songs_transcendent {
+	width: 635px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 20px;
+	letter-spacing: 0.1725px;
+	text-align: justify;
+	color: #FFF;
+	position: absolute;
+	top: 1260px;
+	left: 476px;
+}
+.tx_album_songs_chart_transcendent {
+	width: 270px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	line-height: 20px;
+	letter-spacing: 0.1725px;
+	text-align:justify;
+	color: #FFF;
+}
+
+
+
+
+
+.xavier {
+	height: 684px;
+	width: 450px;
+	position: absolute;
+	top: 240px;
+	left: 60px;
+}
+
+.xavier_carosel {
+	height: 444px;
+	width: 493px;
+	position: absolute;
+	top: 200px;
+	left: 26px;
+}
+.xavier_lessons {
+	background-image:url(media/xavier_lessons.png);
+	background-repeat:repeat-x;
+	height: 387px;
+	width: 487px;
+	position: absolute;
+	top: 206px;
+	left: 31px;
+}
+
+.xavier_callout {
+	height: 145px;
+	width: 276px;
+	position: absolute;
+	top: 333px;
+	left: 82px;
+}
+
+
+.title_photographs {
+	height: 60px;
+	width: 471px;
+	position: absolute;
+	top: 200px;
+	left: 50px;
+}
+
+
+.title_aboutus {
+	height: 60px;
+	width: 471px;
+	position: absolute;
+	top: 240px;
+	left: 552px;
+}
+.title_lessons {
+	height: 54px;
+	width: 438px;
+	position: absolute;
+	top: 241px;
+	left: 548px;
+}
+
+.masthead {
+	height: 73px;
+	width: 390px;
+	position: absolute;
+	top: 33px;
+	left: 46px;
+}
+
+.socialmedia {
+	height: 16px;
+	width: 233px;
+	position: absolute;
+	top: 33px;
+	left: 896px;
+}
+
+.facebook {
+	height: 24px;
+	width: 24px;
+	position: absolute;
+	top: 57px;
+	left: 1050px;
+}
+
+.youtube {
+	height: 24px;
+	width: 24px;
+	position: absolute;
+	top: 57px;
+	left: 1077px;
+}
+
+.twitter {
+	height: 24px;
+	width: 24px;
+	position: absolute;
+	top: 57px;
+	left: 1103px;
+}
+
+.nav_container {
+	height: 161px;
+	background-image:url(media/bkgd_nav_strip.png);
+	background-repeat:repeat-x;
+}
+
+.nav_about {
+	height: 41px;
+	width: 59px;
+	position: absolute;
+	top: 120px;
+	left: 487px;
+}
+.nav_aboutOFF {
+	height: 31px;
+	width: 59px;
+	position: absolute;
+	top: 124px;
+	left: 487px;
+}
+.nav_lessons {
+	height: 31px;
+	width: 87px;
+	position: absolute;
+	top: 124px;
+	left: 552px;
+}
+.nav_lessonsON {
+	height: 41px;
+	width: 87px;
+	position: absolute;
+	top: 120px;
+	left: 552px;
+}
+.nav_music {
+	height: 31px;
+	width: 87px;
+	position: absolute;
+	top: 124px;
+	left: 645px;
+}
+.nav_musicON {
+	height: 41px;
+	width: 87px;
+	position: absolute;
+	top: 120px;
+	left: 645px;
+}
+.nav_repetoire {
+	height: 31px;
+	width: 87px;
+	position: absolute;
+	top: 124px;
+	left: 738px;
+}
+.nav_repetoireON {
+	height: 41px;
+	width: 87px;
+	position: absolute;
+	top: 120px;
+	left: 738px;
+}
+.nav_gallery {
+	height: 31px;
+	width: 87px;
+	position: absolute;
+	top: 124px;
+	left: 831px;
+}
+.nav_galleryON {
+	height: 41px;
+	width: 87px;
+	position: absolute;
+	top: 120px;
+	left: 831px;
+}
+.nav_contactus {
+	height: 31px;
+	width: 87px;
+	position: absolute;
+	top: 124px;
+	left: 924px;
+}
+.nav_contactusON {
+	height: 41px;
+	width: 87px;
+	position: absolute;
+	top: 120px;
+	left: 924px;
+}
+
+
+
+.tx_gallery {
+	width: 1160px;
+	position: absolute;
+	top: 200px;
+	left: 50px;
+	font-size: 12px;
+	color: #F33;
+}
+
+
+
+.tx_contactus {
+	width: 610px;
+	position: absolute;
+	top: 319px;
+	left: 180px;
+}
+.title_contactus {
+	height: 60px;
+	width: 610px;
+	position: absolute;
+	top: 241px;
+	left: 180px;
+}
+
+
+
+.tx_aboutus {
+	width: 456px;
+	position: absolute;
+	top: 319px;
+	left: 551px;
+}
+.tx_aboutus_text {
+	width: 438px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	line-height: 20px;
+	letter-spacing: 0.1725px;
+	text-align:justify;
+	color: #FFF;
+}
+
+.tx_lessons {
+	width: 456px;
+	position: absolute;
+	top: 319px;
+	left: 551px;
+}
+.tx_lessons_text {
+	width: 438px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	line-height: 20px;
+	letter-spacing: 0.1725px;
+	text-align:justify;
+	color: #FFF;
+}
+
+.tx_copyright {
+	width: 456px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:9px;
+	font-style:normal;
+	line-height: 20px;
+	letter-spacing: 0.1725px;
+	text-align:center;
+	color: #747373;
+}
+
+
+.tx_lessons_rule {
+	width: 456px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	line-height: 20px;
+	letter-spacing: 0.1725px;
+	text-align:center;
+	color: #44745e;
+}
+
+
+#container #video1 {
+	height: 211px;
+	width: 150px;
+	border: 0;
+	float: left;
+	margin-left: 30px;
+	margin-top: 134px;
+}
+#container #video2 {
+	height: 211px;
+	width: 150px;
+	border: 0;
+	float: left;
+}
+#container #video3 {
+	height: 211px;
+	width: 150px;
+	border: 0;
+	float: left;
+	margin-top: 134px;
+}
+#container #img-link {
+	position: absolute;
+}
+#container #img-link {
+	position: absolute;
+}
+
+
+
+
+
+/* Basic Green */
+.basic-green {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 610px;
+    background: #d9e6c7;
+    padding: 25px 15px 25px 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+    color: #888;
+    letter-spacing: .2px;
+    border:1px solid #E4E4E4;
+}
+.basic-green h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #888;
+}
+.basic-green h1>span {
+    display: block;
+    font-size: 11px;
+}
+.basic-green label {
+    display: block;
+    margin: 0px;
+}
+.basic-green label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #000000;
+}
+.basic-green input[type="text"], .basic-green input[type="phone"], .basic-green input[type="email"], .basic-green textarea, .basic-green select {
+    border: 1px solid #DADADA;
+    height: 26px;
+    margin-bottom: 12px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+    color: #888;
+	letter-spacing: .2px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.basic-green textarea{
+    padding: 5px 3px 3px 5px;
+}
+.basic-green select {
+    background: #FFF url('media/down-arrow.png') no-repeat right;
+    background: #FFF url('media/down-arrow.png') no-repeat right);
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 72%;
+    height: 35px;
+    line-height: 25px;
+}
+.basic-green textarea{
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+    color: #888;
+    line-height:15px;
+    height:100px;
+}
+.basic-green .button {
+    background: #6c8a44;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.basic-green .button:hover {
+    background: #000000;
+}
